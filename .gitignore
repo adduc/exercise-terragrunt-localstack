@@ -1,0 +1,15 @@
+# Localstack's data
+volume
+
+# Terraform's cache
+.terraform
+
+# Terraform's lock file for dependency management
+.terraform.lock.hcl
+
+# Terraform's state file (and backup)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terragrunt-managed terraform files
+generated.*.tf
